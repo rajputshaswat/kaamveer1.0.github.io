@@ -1,0 +1,69 @@
+
+  /* font family is added */
+body {
+    background-image: url("KAAMVEER.png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1ebf3be;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  /* desired spacing for input fields */
+  .drop {
+    margin: 0.25em 0em 1em 0em;
+  }
+/* more styles added to beautify the input fields */
+.drop {
+    margin: 0.25em 0em 1em 0em;
+    outline: none;
+    padding: 0.5em;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.25em;
+    color: black;
+  }
+/* styles for button */
+button {
+    padding: 0.75em;
+    border: none;
+    outline: none;
+    background-color: rgb(68, 18, 232);
+    color: white;
+    border-radius: 0.25em;
+  }
+  
+  /* hover functionality for button */
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(41, 4, 164);
+  }
+ .container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-control{
+  margin: 0.25em 0em 1em 0em;
+    outline: none;
+    padding: 0.5em;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.25em;
+    color: black;
+}
